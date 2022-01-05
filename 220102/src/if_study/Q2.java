@@ -7,6 +7,7 @@ public class Q2 {
 	public static void main(String[] args) {
 
 		/*
+		 * 문제출처 - https://www.acmicpc.net/problem/9498
 		 * 시험점수를 입력받아 
 		 * 90~100점은 A
 		 * 80~89점은 B
