@@ -30,6 +30,7 @@ public class s1 {
 				}
 				System.out.println("*");
 			}
+			//--->실패..더 생각해보기
 		}
 
 }
