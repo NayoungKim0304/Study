@@ -82,6 +82,60 @@ public class s1 {
 				System.out.println();
 			}
 			
+			//*
+			//**
+			//***
+			//****
+			//*****
+			//****
+			//***
+			//**
+			//*
+			
+			//5번째줄까지 별 하나씩 증가
+			for(int i=0; i<n; i++) {
+				for(int j=0; j<i+1; j++) {
+				System.out.print("*");
+				}
+				System.out.println();				
+			}
+			
+			//다시 별 하나씩 감소(6~9번째줄)
+			for(int i=0; i<n-1; i++) {
+				for(int j=1; j<n-i; j++) {
+					System.out.print("*");
+				}
+				System.out.println();
+			}
+			System.out.println("=====================");
+			
+			
+			//별찍기 최종연습
+			//    **
+			//   *  *
+			//  *    *
+			// *      *
+			//*        *
+			
+			//줄 다섯줄 반복
+			for(int i=0; i<n; i++) {
+				//별 앞 공백 4-3-2-1-0개
+				for(int j=1; j<n-i; j++) {
+					System.out.print(" ");
+				}
+				
+				//별 하나 출력
+				System.out.print("*");
+				
+				//별 오른쪽 공백 0-2-4-8-10개
+				for(int j=0; j<i*2; j++) {
+					System.out.print(" ");
+				}
+				
+				//별 하나 출력
+				System.out.println("*");
+			}
+			
 		}
 
 }
