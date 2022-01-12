@@ -17,15 +17,20 @@ public class s3 {
 				
 		}
 		
-		int max = 0;
+		int max = a[0];
 		int index=0;
 		
 		for(int i=0; i<a.length; i++) {
 		
 			//max > a[i] 의 조건이 존재하지 않아도 되는 이유는?
-			//max를 0으로 초기화했고, 주어지는 수는 자연수이기 때문에 성립하지 않는 조건이라서?
+			//->최대값을 구하는 것이므로 a[i]가 max값보다 작다면 이전 max값이 그대로 남아있으니까
+			//하는 의미가 없음
+			//index는 max < a[i] 일때만 i+1번째로 변경되므로
 			
-			if(max < a[i]) {
+			if(max > a[i]) {
+					max = max;
+				}
+			else{
 				max = a[i];
 				index = i+1;
 			}
