@@ -22,10 +22,10 @@ public class s3 {
 		
 		for(int i=0; i<a.length; i++) {
 		
-			if(max > a[i]) {
-				max = max;
-				index=i;
-			}else {
+			//max > a[i] 의 조건이 존재하지 않아도 되는 이유는?
+			//max를 0으로 초기화했고, 주어지는 수는 자연수이기 때문에 성립하지 않는 조건이라서?
+			
+			if(max < a[i]) {
 				max = a[i];
 				index = i+1;
 			}
