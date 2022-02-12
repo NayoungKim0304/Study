@@ -1,3 +1,4 @@
+package Jan;
 
 public class s1 {
 
