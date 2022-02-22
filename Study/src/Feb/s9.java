@@ -25,10 +25,25 @@ public class s9 {
 		//삼항연산자를 사용하여
 			
 					
-			int min=(((x < y) ? x : y) < w-x ? ((x < y) ? x : y) : w-x) < h-y ? (((x < y) ? x : y) < w-x ? ((x < y) ? x : y) : w-x) : h-y;
-			System.out.println(min);
+//			int min=(((x < y) ? x : y) < w-x ? ((x < y) ? x : y) : w-x) < h-y ? (((x < y) ? x : y) < w-x ? ((x < y) ? x : y) : w-x) : h-y;
+//			System.out.println(min);
 		
+		//일반 조건문 이용
+		int a = w-x;
+		int b = h-y;
 		
+		int min = x;
+		if(min > y) {
+			min=y;
+		}
+		if(min > a) {
+			min = a;
+		}
+		if(min > b) {
+			min=b;
+		}
+		
+		System.out.println(min);
 		
 	}
 
