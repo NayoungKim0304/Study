@@ -1,4 +1,4 @@
-package Jan;
+package Jan1;
 import java.util.Scanner;
 
 public class s4 {
