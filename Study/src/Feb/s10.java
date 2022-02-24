@@ -1,11 +1,12 @@
 package Feb;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class s10 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException{
 
 		//백준 11653번(https://www.acmicpc.net/problem/11653)
 		//정수 N이 주어졌을때 소인수 분해하는 프로그램 작성
@@ -30,25 +31,28 @@ public class s10 {
 //		}
 		
 		
-		//BufferedReader 사용
+		//BufferedReader 사용연습
+		//=>Scanner를 사용했을때보다 메모리와 시간이 더 적게 사용된다.
 		
 		BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
 		
-		StringBuilder sb = new StringBuilder();
-////		int N = Integer.parseInt(buffer.readLine())
-//		
-//		for(int i=2; i<=Math.sqrt(N); i++) {
-//			while(N%i==0) {
-//				sb.append(i).append('\n');
-//				N/=i;
-//			}
-//		}
-//		
-//		if(N != 1) {
-//			sb.append(N);
-//			
-//		}
-//		System.out.println(sb);
+		int N = Integer.parseInt(buffer.readLine());
+		
+		int i = 2;
+		
+		while(N >= i) {
+			if(N%i == 0) {
+				System.out.println(i);
+				N /= i;
+			}else {
+				i++;
+			}
+		}
+	
+		
+		
+		
+
 		
 	}
 
