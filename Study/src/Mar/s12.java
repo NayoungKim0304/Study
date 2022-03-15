@@ -1,6 +1,7 @@
 package Mar;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class s12 {
@@ -38,6 +39,31 @@ public class s12 {
 			System.out.println(arr[i][0] + " " + arr[i][1]);
 		}
 		
+		
+		//람다식? -> 함수형 프로그래밍을 받아들인 결과(기능 위주의 프로그래밍 기법, 함수가 따로 존재)
+		//기본 문법 : (데이터타입 매개변수, ...) -> { 실행문, ... }
+		
+		//자바에서 정렬 기능을 만드려면 compare 메서드를 사용하여 객체를 Arrays.sort()에 전달한다
+		
+		//예시
+		String[] str = {"this", "is", "java", "world"};
+		Arrays.sort(str, new Comparator<String>() {
+
+			@Override
+			public int compare(String o1, String o2) {
+				// -1을 곱해서 내림차순으로 정렬한다.
+				return o1.compareTo(o2) * -1;
+			}
+			
+		});
+		
+		//* - 결국 정렬을 위해 필요했던 '기능'은 Comparator가 아니라 사실 compare()
+		//이러한 번거로움을 없애기 위해 람다식 등장
+		Arrays.sort(str, (o1, o2) -> { return o1.compareTo(o2) * -1; });
+		Arrays.sort(str, (o1, o2) -> o1.compareTo(o2) * -1);
+		
+		
+	
 	}
 
 }
