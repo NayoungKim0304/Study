@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab4bf6ef-58b5-4e01-b134-31fc206acab2" name="Changes" comment="인텔리제이 깃허브 연동테스트">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/controller/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
       <workItem from="1647687629270" duration="282000" />
       <workItem from="1647687950692" duration="429000" />
       <workItem from="1647688395991" duration="31000" />
+      <workItem from="1647688452124" duration="867000" />
     </task>
     <task id="LOCAL-00001" summary="인텔리제이 깃허브 연동테스트">
       <created>1647687718726</created>
@@ -64,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647687966041</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="인텔리제이 깃허브 연동테스트">
+      <created>1647688523729</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647688523729</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
