@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4bf6ef-58b5-4e01-b134-31fc206acab2" name="Changes" comment="인텔리제이 깃허브 연동테스트">
-      <change afterPath="$PROJECT_DIR$/hello-spring/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-spring/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-spring/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-spring/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-spring/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-spring/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-spring/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/HelloSpringApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-spring/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-spring/src/test/java/hello/hellospring/HelloSpringApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +47,8 @@
       <workItem from="1647691636925" duration="42000" />
       <workItem from="1647691724031" duration="7000" />
       <workItem from="1647691986673" duration="5000" />
-      <workItem from="1647692006001" duration="34000" />
+      <workItem from="1647692006001" duration="72000" />
+      <workItem from="1647692295594" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="인텔리제이 깃허브 연동테스트">
       <created>1647687718726</created>
@@ -94,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647691302396</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="인텔리제이 깃허브 연동테스트">
+      <created>1647692053332</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647692053332</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
